@@ -1,0 +1,75 @@
+/* Background image  for the home page*/
+
+.hero-image {
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/resources/img/hero.JPG");
+    height: 80vh;
+    background-position: bottom ;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+/* footer */
+footer {
+    background:linear-gradient(#626262, #939FAE);
+    width: 100%;
+    padding: 16px 8px;
+    color: #000;
+    vertical-align: bottom;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+  
+  }
+
+#sample{
+    background-image: linear-gradient(#9896F0, #FBC8D5);
+    width: 10%;
+    height: 20vh;
+    border-radius: 10%;
+}
+
+
+#logo{
+    height: 5vh;
+    border-radius: 50px;;
+}
+
+  @media only screen and (min-width: 768px) {
+    /* For desktops phones: */
+    #reservation {
+      width: 400px;
+      position: fixed;
+     
+    }
+  }
+
+  .tile {
+    /* TODO: MODULE_CARDS */
+    /* 1. Fill in the required properties. */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: none;
+  }
+  .tile img {
+    /* TODO: MODULE_CARDS */
+    /* 1. Fill in the required properties. */
+   border-radius:20px;
+   padding: 7px;
+   height: 100%;
+   width: 100%;
+  }
+  .tile img:hover {
+    /* TODO: MODULE_CARDS */
+    /* 1. Fill in the required properties. */
+    transition:  ease-out;
+    filter: grayscale(20%);
+    transform: scale(1.1);
+    cursor:pointer ;
+  
+  }
+  
