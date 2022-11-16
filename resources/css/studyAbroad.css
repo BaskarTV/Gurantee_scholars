@@ -1,0 +1,142 @@
+body{
+ background-image: url('/resources/img/distanceEducation.jpg');
+ }
+
+/* footer */
+footer {
+  background-color: #000;
+  width: 100%;
+  padding: 16px 8px;
+  color: #fff;
+  vertical-align: bottom;
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
+
+}
+
+  #logo{
+    height: 5vh;
+    border-radius: 50px;
+    
+}
+.card{
+  margin: 20px;
+  padding: 10px;
+}
+
+#card-image{
+  width: 100;
+  height: auto;
+  border: 3px solid #000;
+  border-radius: 1rem;
+}
+
+.card-details p{
+   font-size: 15.8px; 
+   word-wrap: break-word;
+  
+}
+ .adventure-card{
+  margin: 20px;
+  padding: 1px; 
+}
+
+  .adventure-card img {
+    /* TODO: MODULE_ADVENTURES_GRID */
+    /* 1. Fill in the required properties. */
+  
+   padding-top: 1px;
+   height:25vh;
+   width:100%;
+   vertical-align: middle;
+   object-fit: cover;
+   transition: all 0.2s ease;
+   
+   
+   
+  }
+  .adventure-card img:hover {
+    /* TODO: MODULE_ADVENTURES_GRID */
+    /* 1. Fill in the required properties. */
+    filter: brightness(0.5);
+    cursor: pointer;
+  }
+
+  
+
+.course{
+margin: 20px;
+padding: 1px;
+}
+
+.navbar{
+  height: 7vh;
+}
+
+
+.discipline-icon{
+  height: 1.5rem;
+  font-weight: 600;
+}
+
+.row{
+  margin: 20px;
+  padding: 10px;
+}
+
+
+
+.content{
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin: 20px;
+  text-align: left;
+  border: 1px solid #000;
+  border-radius: 1rem;
+  
+}
+
+.content h5{
+  margin: 10px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.clearfix{
+  clear: both;
+}
+
+#wrapper_1{
+margin: 10px;
+}
+#wrapper_2{
+ margin: 10px;
+}
+#wrapper_3{
+  margin: 10px;
+}
+
+@media(max-width: 700px) {
+ .content h5{
+  font-size: 10px;
+ }
+  .content li{
+    font-size: 1rem;
+  }
+  #wrapper_,#wrapper_2,#wrapper_3{
+    width: 50vw;
+  }
+}
+
+.details{
+  margin: 20px;
+  padding: 10px;
+}
+
+.details_content{
+  margin: 20px;
+  padding: 10px;
+}

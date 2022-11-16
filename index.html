@@ -8,17 +8,19 @@
 
 <!-- Css Files -->
 <link rel="stylesheet" href="/resources/css/Home.css">
- 
+<link
+href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Inter:wght@100&family=Orbitron&family=Space+Grotesk:wght@300;400&display=swap"
+rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+
+
 <!-- Favicon -->
-<link rel="apple-touch-icon" sizes="180x180" href="/resources/icons/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/resources/icons/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/resources/icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/resources/icons/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/resources/icons/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<meta name="msapplication-TileColor" content="#fff">
-<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-<meta name="theme-color" content="">
+<link rel="apple-touch-icon" sizes="180x180" href="/resources/icons/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/resources/icons/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/resources/icons/favicon.ico">
+<link rel="manifest" href="/site.webmanifest">
 
 <!-- Font awesome link for icons -->
 <script src="https://kit.fontawesome.com/a8d421cca6.js" crossorigin="anonymous"></script>
@@ -34,9 +36,9 @@
 <body>
 
 <!-- header section -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
-     <a class="nav-brand" href="#"><img id="logo" src="./resources/img/G.png"/></a>
+     <a class="nav-brand" href="#"><img id="logo" src="/resources/icons/android-chrome-192x192.png"/></a>
      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -57,9 +59,9 @@
 
 <!-- Hero image container element -->
 <div class="hero-image d-flex flex-column justify-content-center align-items-center  text-center">
-    <div class="container">
+    <div class="container-fulid">
         <i class="fa fa-graduation-cap fa-bounce" style=" font-size: 8rem; "></i>
-        <h1 style="color: red;">Guarentee Scholars</h1>
+        <h1 id="hero-name">Guarentee Scholars Instutions</h1>
         <p id="quote" style="color:red;">Learn today leaders tommorow</p>
     </div>
 </div>  
@@ -68,84 +70,84 @@
 <!-- Grid layouts for courses -->
 <div class="container">    
     <div class="row">
-      <div class="col-sm-6 col-lg-3 mb-4">
-        <div class="tile">
-         <img src="/resources/img/course/dis.jpg" class="img-fluid" alt="DisEduaction-img">
-        <div class="tile-text">
-         <a href="/resources/src/course/distanEducation.html">Distance Education</a> 
-    <p>Content</p>
-    </div>  
-    </div>
-    </div>
-    <div class="col-sm-6 col-lg-3 mb-4">
-      <div class="tile">
-       <img src="/resources/img/course/Forgien.jpg" class="img-fluid" alt="Abrod-img">
-      <div class="tile-text">
-       <a href="/resources/src/course/studyAbroad.html">Study in Europe</a> 
-    <p>Content</p>
-    </div>  
-    </div>
-    </div>
-    <div class="col-sm-6 col-lg-3 mb-4">
-      <div class="tile">
-       <img src="/resources/img/course/law.jpg" class="img-fluid" alt="Law-img">
-      <div class="tile-text">
-       <a href="/resources/src/course/Law.html">Law</a> 
-    <p>Content</p>
-    </div>  
-    </div>
-    </div>
-    <div class="col-sm-6 col-lg-3 mb-4">
-      <div class="tile">
-       <img src="/resources/img/course/school.jpg" class="img-fluid" alt="School-img">
-      <div class="tile-text">
-       <a href="/resources/src/course/openSchool.html">Open Schooling</a> 
-    <p>Content</p>
-    </div>  
-    </div>
-    </div>
-    <div class="col-sm-6 col-lg-3 mb-4">
-      <div class="tile">
-       <img src="/resources/img/course/tution.jpg" class="img-fluid" alt="Tution-img">
-      <div class="tile-text">
-       <a href="/resources/src/course/tution.html">Tution</a> 
-    <p>Content</p>
-    </div>  
-    </div>
-    </div>
-    <div class="col-sm-6 col-lg-3 mb-4">
-      <div class="tile">
-       <img src="/resources/img/course/special.jpg" class="img-fluid" alt="Special-img">
-      <div class="tile-text">
-       <a href="/resources/src/course/specialprogram.html">Special Program</a> 
-    <p>Content</p>
-    </div>  
-    </div>
-    </div> 
-    <div class="col-sm-6 col-lg-3 mb-4">
-      <div class="tile">
-       <img src="/resources/img/course/Regular.jpg" class="img-fluid" alt="Regualer-img">
-      <div class="tile-text">
-       <a href="/resources/src/course/regulaCourses.html">Regular Courses</a> 
-    <p>Content</p>
-    </div>  
-    </div>
-    </div> 
-    <div class="col-sm-6 col-lg-3 mb-4">
-      <div class="tile">
-       <img src="/resources/img/course/Europe.jpg" class="img-fluid" alt="WorkEurope-img">
-      <div class="tile-text">
-       <a href="/resources/src/course/workinEurope.html">Work in Europe</a> 
-    <p>Content</p>
-    </div>  
-    </div>
-    </div>    
+      <div class="col-sm-6 col-lg-3 mb-4 box-shadow">
+        <div class="course-card">
+          <a href="/resources/src/course/distanEducation.html"><img src="/resources/img/course/dis.jpg" class="card-img-top" alt="diseducation-img"></a>
+          <div
+            class="d-flex flex-column flex-lg-row justify-content-center p-2 bg-dark align-items-center round-custom">
+            <h5>Distance Education</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4 box-shadow">
+        <div class="course-card">
+         <a href="/resources/src/course/studyAbroad.html"> <img src="/resources/img/course/Forgien.jpg" class="card-img-top" alt="Aborad-img"></a>
+          <div
+            class="d-flex flex-column flex-lg-row justify-content-center p-2 bg-dark align-items-center round-custom">
+            <h5>Study In Abroad</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4 box-shadow">
+        <div class="course-card">
+          <a href="/resources/src/course/Law.html"><img src="/resources/img/course/law.jpg" class="card-img-top" alt="law-img"></a>
+          <div
+            class="d-flex flex-column flex-lg-row justify-content-center p-2 bg-dark align-items-center round-custom">
+            <h5>LAW Education</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4 box-shadow">
+        <div class="course-card">
+          <a href="/resources/src/course/openSchool.html"><img src="/resources/img/course/school.jpg" class="card-img-top" alt="openschool-img"></a>
+          <div
+            class="d-flex flex-column flex-lg-row justify-content-center p-2 bg-dark align-items-center round-custom">
+            <h5>Open School</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4 box-shadow">
+        <div class="course-card">
+          <a href="/resources/src/course/tution.html"><img src="/resources/img/course/tution.jpg" class="card-img-top" alt="instution-img"></a>
+          <div
+            class="d-flex flex-column flex-lg-row justify-content-center p-2 bg-dark align-items-center round-custom">
+            <h5>Tution</h5>
+          </div>
+        </div>
+      </div>    
+      <div class="col-sm-6 col-lg-3 mb-4 box-shadow">
+        <div class="course-card">
+         <a href="/resources/src/course/specialprogram.html"><img src="/resources/img/course/special.jpg" class="card-img-top" alt="instution-img"></a>
+          <div
+            class="d-flex flex-column flex-lg-row justify-content-center p-2 bg-dark align-items-center round-custom">
+            <h5>Special Programs</h5>
+          </div>
+        </div>
+      </div> 
+      <div class="col-sm-6 col-lg-3 mb-4 box-shadow">
+        <div class="course-card">
+          <a href="/resources/src/course/regulaCourses.html"><img src="/resources/img/course/Regular.jpg" class="card-img-top" alt="instution-img"></a>
+          <div
+            class="d-flex flex-column flex-lg-row justify-content-center p-2 bg-dark align-items-center round-custom">
+            <h5>Regular Courses</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-3 mb-4 box-shadow">
+        <div class="course-card">
+          <a href="/resources/src/course/workinEurope.html"><img src="/resources/img/course/Europe.jpg" class="card-img-top" alt="instution-img"></a>
+          <div
+            class="d-flex flex-column flex-lg-row justify-content-center p-2 bg-dark align-items-center round-custom">
+            <h5>Work In Europe</h5>
+          </div>
+        </div>
+      </div>   
      </div>
     </div>
 
 <!-- Footer section -->
 <footer>
-<div class="container">© Guarentee Scholars</div>
+<div class="container1">© Guarentee Scholars</div>
 </footer>
 
 <!-- Add scripts needed for bootstrap to work -->

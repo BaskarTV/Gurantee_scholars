@@ -1,0 +1,160 @@
+body{
+    background-image: url('/resources/img/distanceEducation.jpg');
+    }
+
+footer {
+    background-color: #000;
+    width: 100%;
+    padding: 16px 8px;
+    color: #fff;
+    vertical-align: bottom;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+  
+  }
+  
+    #logo{
+      height: 5vh;
+      border-radius: 50px;
+      
+  }
+
+  .navbar{
+    height: 7vh;
+  }
+
+  .heading{
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #fff;
+    border-radius: 2rem;
+  }
+
+  .heading h1{
+    text-align: center;
+    font-weight: bolder;
+  }
+
+.course-head{
+  margin: 2px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+
+.course-title ul{
+  margin: 20px;
+  padding: 10px;
+  
+}
+
+.course-title li{
+  margin: 5px;
+  padding: 2px;
+  font-size: 1.2rem;
+}
+
+.course-title li:hover{
+  cursor: pointer;
+  transition: ease-out;
+  transform: scale(1.1);
+  background-color: #fff;
+  color: red;
+}
+
+.one{
+  display: inline-flex;
+  padding: 5px;
+  font-weight: bolder;
+  background-color:lightblue;
+
+}
+
+.two{
+  display: inline-flex;
+  padding: 5px;
+  font-weight: bolder;
+  background-color: lightpink;
+
+}
+
+.three{
+  display: inline-flex;
+  padding: 5px;
+  font-weight: bolder;
+  background-color: lightgreen;
+
+}
+
+.four{
+  display: inline-flex;
+  padding: 5px;
+  font-weight: bolder;
+  background-color: lightyellow;
+}
+
+.five{
+  display: inline-flex;
+  padding: 5px;
+  font-weight: bolder;
+  background-color: limegreen;
+
+}
+#cover-img{
+  width: 100;
+  height: 25vh;
+  
+}
+
+.course_details{
+  margin: 20px;
+  padding: 10px;
+}
+
+.instute-logo{
+  width: 100;
+  height: 10vh;
+  border-radius: 50%;
+}
+
+.course-content h3{
+  font-size: 1.7rem;
+  padding: 3px;
+  margin: 5px;
+  
+}
+
+.course-content h5{
+  font-size: 1rem;
+  padding: 3px;
+  margin: 5px;
+}
+
+.course-content p{
+  font-size: 1.2rem;
+  margin: 15px;
+  padding: 10px;
+  word-wrap: break-word;
+}
+
+@media(max-width:700px){
+ .heading h1,.course-title h3{
+  font-size: 20px;
+ }
+ .course-content h3{
+  font-size: 1rem;
+ }
+
+#cover-img{
+  width: 100%;
+}
+
+ .instute-logo{
+  width: 50;
+
+ }
+  
+}
