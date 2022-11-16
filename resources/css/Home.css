@@ -11,7 +11,7 @@ body{
     url("/resources/img/hero.JPG");
     height: 50vh;
     background-position: bottom ;
-    background-size: cover;
+    background-size: cover;   
     background-repeat: no-repeat;
     margin-top: 10px;
   }
