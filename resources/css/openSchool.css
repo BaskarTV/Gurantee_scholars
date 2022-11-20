@@ -1,5 +1,7 @@
 body{
-    /* background-image: url('/resources/img/distanceEducation.jpg'); */
+    background-image: url('/resources/img/course/Tuition\ background.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
     }
 
 footer {
@@ -20,12 +22,10 @@ footer {
       
   }
 
-  .navbar{
-    height: 7vh;
-  }
+  
 
   .heading{
-    background-color: #fff;
+    /* background-color: #fff; */
     margin: 10px;
     padding: 10px;
   }
@@ -67,7 +67,7 @@ footer {
   display: inline-flex;
   padding: 5px;
   font-weight: bolder;
-  background-color:lightblue;
+  /* background-color:lightblue; */
 
 }
 
@@ -75,7 +75,7 @@ footer {
   display: inline-flex;
   padding: 5px;
   font-weight: bolder;
-  background-color: lightpink;
+  /* background-color: lightpink; */
 
 }
 
@@ -83,7 +83,7 @@ footer {
   display: inline-flex;
   padding: 5px;
   font-weight: bolder;
-  background-color: lightgreen;
+  /* background-color: lightgreen; */
 
 }
 
@@ -91,14 +91,14 @@ footer {
   display: inline-flex;
   padding: 5px;
   font-weight: bolder;
-  background-color: lightyellow;
+  /* background-color: lightyellow; */
 }
 
 .five{
   display: inline-flex;
   padding: 5px;
   font-weight: bolder;
-  background-color: limegreen;
+  /* background-color: limegreen; */
 
 }
 #cover-img{

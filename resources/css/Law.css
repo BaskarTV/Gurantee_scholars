@@ -1,5 +1,5 @@
 body{
-    /* background-image: url('/resources/img/distanceEducation.jpg'); */
+    background-image: url('/resources/img/course/Tuition\ background.webp');
     }
    
    /* footer */
@@ -21,15 +21,12 @@ body{
        
    }
 
-   .navbar{
-    height: 7vh;
-   }
 
    .heading{
-    background-color: #fff;
+    /* background-color: #fff; */
     margin: 10px;
     padding: 10px;
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     border-radius: 2rem;
    }
    

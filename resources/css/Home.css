@@ -16,6 +16,16 @@ body{
   
   }
 
+  video{
+    display: block;
+  }
+
+/* .css-n4vwvm{
+  object-fit: cover;
+  width: 100%;
+  height: 19vh;
+} */
+
 /* footer */
 footer {
   background-color: #000;
@@ -29,9 +39,6 @@ footer {
 }
 
 
-.navbar{
-  height: 7vh;
- }
 
 #logo{
     height: 5vh;

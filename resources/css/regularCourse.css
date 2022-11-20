@@ -1,7 +1,7 @@
 body{
-    /* background-image: url('/resources/img/disback4.JPG');
+    background-color:yellow  !important;
     background-size: cover;
-    background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     }
    
    /* footer */
@@ -23,9 +23,7 @@ body{
       
    }
 
-   .navbar{
-    height: 7vh;
-   }
+   
 
    .details{
     margin: 20px;
