@@ -1,5 +1,5 @@
 body{
-    background-image: url('/resources/img/distanceEducation.jpg');
+    /* background-image: url('/resources/img/distanceEducation.jpg'); */
     }
 
 footer {
@@ -28,8 +28,6 @@ footer {
     background-color: #fff;
     margin: 10px;
     padding: 10px;
-    border: 1px solid #fff;
-    border-radius: 2rem;
   }
 
   .heading h1{
@@ -62,7 +60,7 @@ footer {
   transition: ease-out;
   transform: scale(1.1);
   background-color: #fff;
-  color: red;
+  color: black;
 }
 
 .one{
@@ -140,6 +138,11 @@ footer {
   word-wrap: break-word;
 }
 
+
+.help{
+  margin: 20px;
+  padding: 10px;
+}
 @media(max-width:700px){
  .heading h1,.course-title h3{
   font-size: 20px;
@@ -157,4 +160,58 @@ footer {
 
  }
   
+}
+
+@media(max-width:820px){
+  .heading h1,.course-title h3{
+    font-size: 20px;
+   }
+   .course-content h3{
+    font-size: 1rem;
+   }
+  
+  #cover-img{
+   width:30vw;
+  }
+  
+   .instute-logo{
+    width: 50;
+  
+   }
+}
+
+@media(max-width:600px){
+  .heading h1,.course-title h3{
+    font-size: 20px;
+   }
+   .course-content h3{
+    font-size: 1rem;
+   }
+  
+  #cover-img{
+   width:100%;
+  }
+  
+   .instute-logo{
+    width: 50;
+  
+   }
+} 
+
+@media (min-width: 1200px) {
+  .heading h1,.course-title h3{
+    font-size: 20px;
+   }
+   .course-content h3{
+    font-size: 1rem;
+   }
+  
+  #cover-img{
+   width:30vw;
+  }
+  
+   .instute-logo{
+    width: 50;
+  
+   }
 }

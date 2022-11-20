@@ -1,0 +1,110 @@
+body{
+    /* background-image: url('/resources/img/disback4.JPG');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    }
+   
+   /* footer */
+   footer {
+     background-color: #000;
+     width: 100%;
+     padding: 16px 8px;
+     color: #fff;
+     vertical-align: bottom;
+     margin-top: 10px;
+     text-align: center;
+     width: 100%;
+   
+   }
+   
+     #logo{
+       height: 5vh;
+       border-radius: 50px;
+      
+   }
+
+   .navbar{
+    height: 7vh;
+   }
+
+   .contents{
+    margin: 10px;
+    padding: 5px;
+   }
+   
+   .details_contents h5{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 2px;
+    padding: 4px;
+    
+
+   }
+
+   .details_contents p{
+    margin: 5px;
+    padding: 3px; 
+    font-size: 1.1rem;
+  }
+
+   .details_head h1{
+    text-align: center;
+   }
+   .hero_img{
+    border-radius: 0.5rem;
+    height: 50px;
+    width: 100px;
+  }
+  
+  #migrate{
+    display: inline-block;
+    background-color: lightpink;
+
+  }
+
+  .Europe_title{
+    margin: 10px;
+    padding: 5px;
+    
+ }
+
+ .Europe_title h4{
+    margin: 1px;
+    padding: 2px;
+ }
+
+ .Europe_title h5{
+    margin: 10px;
+    padding: 1px;
+
+ }
+
+ 
+
+ .Europe_title p{
+   margin: 10px;
+   padding: 3px; 
+}
+
+.benifits{
+    margin: 10px;
+    padding: 5px;
+}
+
+.help_content{
+    margin: 10px;
+    padding: 5px;
+}
+
+.help_content h5{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 2px;
+    padding: 4px;
+    
+}
+
+.help_content p{
+    margin: 5px;
+    padding: 3px;
+}

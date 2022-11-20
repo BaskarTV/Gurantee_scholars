@@ -1,5 +1,5 @@
 body{
- background-image: url('/resources/img/distanceEducation.jpg');
+ /* background-image: url('/resources/img/distanceEducation.jpg'); */
  }
 
 /* footer */
@@ -20,10 +20,10 @@ footer {
     border-radius: 50px;
     
 }
-.card{
+/* .card{
   margin: 20px;
   padding: 10px;
-}
+} */
 
 #card-image{
   width: 100;
@@ -88,6 +88,7 @@ padding: 1px;
 
 
 .content{
+  background-color: lightgray;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -111,12 +112,15 @@ padding: 1px;
 
 #wrapper_1{
 margin: 10px;
+padding: 10px;
 }
 #wrapper_2{
  margin: 10px;
+ padding: 10px;
 }
 #wrapper_3{
   margin: 10px;
+  padding: 10px;
 }
 
 @media(max-width: 700px) {

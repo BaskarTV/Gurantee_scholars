@@ -1,0 +1,109 @@
+body{
+    /* background-image: url('/resources/img/disback4.JPG');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    }
+   
+   /* footer */
+   footer {
+     background-color: #000;
+     width: 100%;
+     padding: 16px 8px;
+     color: #fff;
+     vertical-align: bottom;
+     margin-top: 10px;
+     text-align: center;
+     width: 100%;
+   
+   }
+   
+     #logo{
+       height: 5vh;
+       border-radius: 50px;
+      
+   }
+
+   .navbar{
+    height: 7vh;
+   }
+
+   .details{
+    margin: 20px;
+    padding: 10px;
+   }
+
+  #one{
+    
+    display: inline-flex;
+    margin: 10px;
+    padding: 5px;
+    background-color: #d3d3d3;
+    border-radius:1rem;
+  }
+
+  #two{
+  
+    display: inline-flex;
+    margin: 8px;
+    padding: 5px;
+    background-color: #d3d3d3;
+    border-radius:1rem;
+  }
+
+  #three{
+    width: 100;
+    display: inline-flex;
+    margin: 10px;
+    padding: 5px;
+    background-color: #d3d3d3;
+    border-radius:1rem;
+  }
+   
+.discipline-icon{
+  margin: 5px;
+  padding: 3px;
+}
+
+   .nav a{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+   }
+
+
+   h1{
+    text-align: center;
+   }
+
+  .course_head h5{
+    margin: 10px;
+    padding: 5px;
+  }
+
+  .course_detials h5{
+    margin: 5px;
+    padding: 3px;
+  }
+
+ .course_detials p{
+  margin: 6px;
+  padding: 5px;
+  font-size: 1.2rem;
+ }
+
+.college-card{
+  margin: 5px;
+  padding: 3px;
+}
+
+  .college-card h5{
+    margin: 10px;
+    padding: 5px;
+    color:#fff;
+    font-size: 0.9rem;
+  }
+
+  .college-card img{
+    width: 100;
+    height: 15vh;
+  }
