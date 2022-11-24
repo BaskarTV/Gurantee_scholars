@@ -69,8 +69,6 @@
 }
 
 .detials {
-  
-  /* background-image: url('/resources/img/d9.jpg'); */
   background-size: cover;
   background-repeat: no-repeat;
   width: 100;
@@ -88,7 +86,10 @@
 
 .course-card {
   margin: 20px;
-  box-shadow: 13px 10px #000;
+}
+
+a:link {
+  text-decoration: none;
 }
 
 .course-card img {
