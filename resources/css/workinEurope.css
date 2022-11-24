@@ -1,108 +1,164 @@
-body{
-    /* background-image: url('/resources/img/disback4.JPG');
-    background-size: cover;
-    background-repeat: no-repeat; */
-    }
-   
-   /* footer */
-   footer {
-     background-color: #000;
-     width: 100%;
-     padding: 16px 8px;
-     color: #fff;
-     vertical-align: bottom;
-     margin-top: 10px;
-     text-align: center;
-     width: 100%;
-   
-   }
-   
-     #logo{
-       height: 5vh;
-       border-radius: 50px;
-      
-   }
+.contents{
+  margin: 10px;
+  padding: 5px;
+  position: relative;
+}
 
-   
 
-   .contents{
-    margin: 10px;
-    padding: 5px;
-   }
-   
-   .details_contents h5{
-    font-size: 1.2rem;
-    font-weight: 500;
-    margin: 2px;
-    padding: 4px;
-    
 
-   }
+.contents::after{
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background: url('/resources/img/travel-concept-with-landmarks_1057-4873.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .2;
+}
 
-   .details_contents p{
-    margin: 5px;
-    padding: 3px; 
-    font-size: 1.1rem;
-  }
 
-   .details_head h1{
-    text-align: center;
-   }
-   .hero_img{
-    border-radius: 0.5rem;
-    height: 50px;
-    width: 100px;
-  }
-  
-  #migrate{
-    display: inline-block;
-    background-color: lightpink;
 
-  }
+/* footer */
+footer {
+  background-color: #000;
+  width: 100%;
+  padding: 16px 8px;
+  color: #fff;
+  vertical-align: bottom;
+  margin-top: 10px;
+  text-align: center;
+  width: 100%;
 
-  .Europe_title{
-    margin: 10px;
-    padding: 5px;
-    
- }
-
- .Europe_title h4{
-    margin: 1px;
-    padding: 2px;
- }
-
- .Europe_title h5{
-    margin: 10px;
-    padding: 1px;
-
- }
-
+}
  
+#logo {
+  height: 5vh;
+  border-radius: 50px;
 
- .Europe_title p{
-   margin: 10px;
-   padding: 3px; 
 }
 
-.benifits{
-    margin: 10px;
-    padding: 5px;
+
+
+
+
+
+
+
+.hero_img {
+  border-radius: 0.5rem;
+  height: 50px;
+  width: 100px;
+  
+}
+.details_head h1 {
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  text-align: center;
+  
 }
 
-.help_content{
-    margin: 10px;
-    padding: 5px;
+.Europe_title {
+  margin: 10px;
+  padding: 5px;
+
+}
+.Europe_title h4 {
+  margin: 1px;
+  padding: 2px;
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  display: inline-block;
+  font-weight: 900;
 }
 
-.help_content h5{
+
+.Europe_title h5 {
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  margin: 10px;
+  padding: 5px;
+
+}
+
+.Europe_title p {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin: 15px;
+  padding: 3px;
+}
+
+
+.benifits {
+  margin: 10px;
+  padding: 5px;
+}
+
+.benifits h4{
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  margin: 10px;
+  padding: 5px;
+}
+
+.benifits h5{
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 800;
+  margin: 10px;
+  padding: 5px;
+}
+
+.benifits p{
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin: 15px;
+  padding: 3px;
+}
+
+.help_content {
+  margin: 10px;
+  padding: 5px;
+}
+
+.help_content h5 {
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 10px;
+  padding: 5px;
+
+}
+
+.help_content li {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin: 5px;
+  padding: 3px;
+}
+
+@media (max-width:400px){
+  .details_head h1{
+    font-size: 1.5rem;
+  }
+  .hero_img{
+    width: 100%;
+    height: 15vh;
+  }
+
+  .Europe_title h4{
     font-size: 1.2rem;
-    font-weight: 500;
-    margin: 2px;
-    padding: 4px;
-    
-}
-
-.help_content p{
-    margin: 5px;
-    padding: 3px;
+  }
+  .Europe_title h5{
+    font-size: 1.3rem;
+  }
+  .benifits h5{
+    font-size: 1.3rem;
+  }
 }
