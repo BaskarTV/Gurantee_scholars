@@ -1,6 +1,4 @@
 .hero-image {
-
-
   height: 60vh;
   opacity: 0.9;
   width: 100;
@@ -27,11 +25,6 @@
 }
 
 
-
-
-
-
-
 #logo {
   height: 5vh;
   border-radius: 50px;
@@ -54,19 +47,24 @@
 }
 
 
-@media (max-width:920px) {
-  #hero {
-    width: 100vw;
-  }
-}
-
-
-@media(max-width: 480px) {
+@media (min-width:920px) {
   #hero {
     width: 100vw;
   }
 
 }
+
+
+@media(min-width: 480px) {
+  #hero {
+    width: 100vw;
+  }
+
+
+
+}
+
+
 
 .detials {
   background-size: cover;
@@ -81,7 +79,6 @@
  font-weight: 500;
  color: #FF692E;
 }
-
 
 
 .course-card {
@@ -116,6 +113,8 @@ a:link {
   height: 0.6rem;
 
 }
+
+
 
 
 @media screen and (max-width: 850px) {
